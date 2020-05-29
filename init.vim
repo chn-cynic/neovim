@@ -14,12 +14,19 @@ Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'
 Plug 'honza/vim-snippets'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'itchyny/lightline.vim'
+Plug 'ap/vim-css-color'
+Plug 'amadeus/vim-convert-color-to'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'romainl/vim-cool'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+
 " Initialize plugin system
 call plug#end()
-colorscheme dracula
 
+colorscheme dracula
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
-

@@ -26,7 +26,7 @@ Plug 'tpope/vim-repeat'
 " Initialize plugin system
 call plug#end()
 
-colorscheme dracula
+"colorscheme dracula
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim

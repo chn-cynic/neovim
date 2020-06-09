@@ -22,6 +22,7 @@ Plug 'romainl/vim-cool'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
+Plug 'airblade/vim-gitgutter'
 
 " Initialize plugin system
 call plug#end()

@@ -23,6 +23,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'airblade/vim-gitgutter'
+Plug 'ptzz/lf.vim'
+Plug 'rbgrouleff/bclose.vim'
 
 " Initialize plugin system
 call plug#end()
